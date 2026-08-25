@@ -1,0 +1,1 @@
+public record CreateFolderRequest(Guid? ParentFolderId, string? Name);
