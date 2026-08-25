@@ -1,0 +1,31 @@
+## Build
+**/bin/
+**/obj/
+**/out/
+*.user
+*.suo
+.vs/
+.idea/
+
+## Local runtime / secrets
+**/uploads/
+**/*.db
+**/*.db-shm
+**/*.db-wal
+appsettings.*.local.json
+.env
+.env.*
+
+## OS / editor
+.DS_Store
+*.swp
+*~
+
+## Tests / coverage
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+## Learning notes (local only, not part of the API repo)
+main.md
