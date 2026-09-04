@@ -1,4 +1,4 @@
-# tds-backend-api
+# kiwi-backend-api
 
 Personal Assistant API (ASP.NET). Auth (JWT), todos, folders/files. Frontend: separate Next.js repo.
 
@@ -9,7 +9,7 @@ UI / HTTP
   → Controllers/*Controller.cs
   → Services/*Service.cs
   → AppDbContext (EF Core)
-  → SQLite file App/tds.db   [current]
+  → SQLite file App/kiwi.db   [current]
   → disk App/uploads/{userId}/   [current file bytes]
 
 Auth: AuthController → JwtTokenService (+ UserService on register/me)
